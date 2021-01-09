@@ -1,0 +1,110 @@
+body {
+    display: block;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+nav {
+    background-color: white;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #D64ED9;
+}
+
+nav ul li a {
+    font-size: 22px;
+    margin: auto 10px;
+    color: #D64ED9 
+}
+
+nav ul li a:hover {
+    color: #D64ED9
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:black
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #D64ED9;
+}
+
+section p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+button {
+    max-width: 50%;
+    border-radius: 50px !important;
+
+}
+
+#hero .column {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-column {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#hero img {
+    max-width: 100% !important;
+    width: 100%;
+}
+
+#userresearch img {
+    max-width: 30% !important;
+    justify-content: center;
+}
+
+#usabilitytesting img {
+    max-width: 50%;
+}
+
+#prototyping img {
+    max-width: 30% !important;
+    justify-content: center; 
+}
+
+
+.footer {
+    background-color: #1d1d1d;
+    overflow: hidden;
+    align-items: center;
+    color: #D64ED9;
+    padding: 10px;
+    font-family: myFirstFont;
+    src: url(Montserrat/Montserrat-Light.ttf);
+    text-align: center;
+    align-items: center;
+  }
+
+  .pictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+  }
+
+  .pictures a{
+    padding: 0px 5px;
+  }
+
